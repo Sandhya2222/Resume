@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+:root{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 4rem 1rem;
+    background: linear-gradient(to right,rgb(240, 135, 124),rgb(224, 201, 201));
+
+}
+
+h2{
+    color: maroon;
+}
+.Introduction{
+    text-align: center;
+    line-height: 38px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.heading .title{
+    border: none;
+   
+    text-align: center;
+    padding-left: 64px
+
+    
+}
+ p{
+    text-align: left;
+}
+
+.heading img{
+    border: 2px solid grey;
+    border-radius: 71px;
+    height: 144px;
+    width: 138px;
+}
+
+.contacts{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    line-height: 31px;
+}
+h2{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    width: 90%;
+}
+
+.contacts ul{
+    list-style: none;
+}
+
+
+.contacts ul li .icon{
+    margin: 8px;
+    
+    display: inline-block;
+    width: 12px;
+    font-size: 18px;
+    color: rgb(58, 138, 111);
+}
+
+.contacts ul li .text{
+    color: rgb(17, 13, 13);
+    font-weight: 600;
+    padding: 2px;
+}
+
+.education li{
+    margin-top: 2px;
+    font-size: 17px;
+}
+.contacts h3{
+    color:rgb(84, 139, 161);
+    font-weight: 800;
+}
+.contacts h4,h5{
+    color: rgb(172, 73, 56);
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin:23px auto;
+    
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4{
+    color: blueviolet;
+    font-weight: 800;
+}
+
+.skills .box .percent{
+    position: relative;
+    /* padding: 10px; */
+    margin: 10px;
+    
+    width: 90%;
+    height: 10px;
+    background: rgb(177, 169, 169);
+}
+
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(60, 138, 158);
+}
+.resume{
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:1rem;
+    background-color: rgb(248, 247, 247);
+    padding: 1rem;
+}
+
+.section{
+    padding: 10px 0px;
+}
+
+.hobbies ul{
+    
+    display: flex;
+    align-items: center;
+    
+    padding: 10px 10px;
+
+}
+
+@media only screen and (max-width: 1000px){
+    :root{
+        
+        padding: 1rem 1rem;
+        background: none;
+        
+    
+    }
+    
+    .resume{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-evenly;
+        padding: 40px;
+        background:rgb(248, 244, 241);
+    
+    }
+    .skills{
+        margin-top: 29px;
+        margin-bottom: 24px;
+    }
+
+        
+h2{
+    width: 100%;
+}
+
+.heading .title {
+       
+        text-align: center;
+        padding-left: 9px;
+    
+        
+    }
+    
+}
+  
+@media only screen and (max-width: 423px){
+
+    
+.contacts ul li{
+        display: inline-block;
+        width: 114%;
+}
+
+}
